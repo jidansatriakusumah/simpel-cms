@@ -1,11 +1,12 @@
 <?php
 
 include_once('includes/connection.php');
-include_once('includes/article.php');
 
-$article_data = mysqli_fetch_array($article);
 
 if (isset($_GET["id"])) {
+  $id = $_GET["id"];
+  $article = mysqli_query($conn, "SELECT * FROM articles WHERE article_id = $id");
+  $article_data = mysqli_fetch_array($article);
 } else {
   header('Location = index.php');
   exit();
@@ -31,7 +32,7 @@ if (isset($_GET["id"])) {
 
     <p><?= $article_data["article_content"]; ?></p>
 
-    <a href="index.php">&larr;</a>
+    <a href="index.php">&larr; Kembali</a>
   </div>
 </body>
 

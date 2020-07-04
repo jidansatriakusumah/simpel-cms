@@ -24,6 +24,8 @@ include_once('includes/article.php');
         </li>
       <?php } ?>
     </ol>
+
+    <small><a href="admin">Login</a></small>
   </div>
 </body>
 
