@@ -14,7 +14,7 @@ include_once('includes/article.php');
 
 <body>
   <div class="container">
-    <a href="index.php" id="logo">CMS</a>
+    <a href="index.php" id="logo">CMS</a><small> created by: <a href="https://www.instagram.com/jidansatriakusumah" style="color: red; border-bottom-color: red;">Jidan</a> <a href="https://www.github.com/jidansatriakusumah" style="color: black; border-bottom-color: black;">Satria</a> <a href="https://web.facebook.com/profile.php?id=100006862151653" style="color: blue; border-bottom-color: blue;">Kusumah</a></small>
 
     <ol>
       <?php while ($article_data = mysqli_fetch_array($article)) { ?>

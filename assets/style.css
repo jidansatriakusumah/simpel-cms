@@ -23,3 +23,8 @@ small {
   color: #999;
   font-style: italic;
 }
+
+input, textarea {
+  appearance: none;
+  padding: 2px;
+}

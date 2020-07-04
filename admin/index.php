@@ -22,7 +22,7 @@ if (isset($_SESSION["login"])) {
 
       <ol>
         <li><a href="add.php">Add Article</a></li>
-        <li><a href="delete.php">Delet Article</a></li>
+        <li><a href="delete.php">Delete Article</a></li>
         <li><a href="logout.php">Logout</a></li>
       </ol>
     </div>
@@ -53,7 +53,9 @@ if (isset($_SESSION["login"])) {
         <button type="submit" name="login">Login!</button>
       </form>
 
-      <small><a href="registration.php">Register</a></small>
+      <small><a href="registration.php">Register</a></small><br><br>
+
+      <small><a href="../">&larr; Back</a></small>
     </div>
   </body>
 

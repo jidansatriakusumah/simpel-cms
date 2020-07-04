@@ -40,7 +40,7 @@ if (isset($_POST["register"])) {
       <button type="submit" name="register">Register!</button>
     </form>
 
-    <small><a href="index.php">&larr; Kembali</a></small>
+    <small><a href="index.php">&larr; Back</a></small>
   </div>
 </body>
 
